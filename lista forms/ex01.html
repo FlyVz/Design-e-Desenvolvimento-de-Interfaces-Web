@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <title>Document</title>
+</head>
+
+<body>
+
+    <form action="cadastro">
+
+        <table heidth="200px" height="200px">
+
+            <tr>
+                <td>
+                    <label for="nome">Nome*</label>
+                </td>
+                <td>
+                    <input type="primeiroNome" placeholder="first">
+                    <input type="ultimoNome" placeholder="last">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="email">email*</label>
+                </td>
+                <td>
+                    <!-- tentei usar o colspan para fazer o input email ocupar duas colunas, mas nao funcionou entao pesquisei e decide usar o size so para deixar igual ao do exemplo -->
+                    <input type="email" name="email" size="46">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="telefone">telefone</label>
+                </td>
+                <td>
+                    <input type="text" name="telefone" placeholder="#### #### ######" size="46">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="endereco">endereco</label>
+                </td>
+                <td>
+                    <input type="text" name="endereco" placeholder="street adress" size="46">
+                </td>
+            </tr>
+            <tr>
+                <td></td>
+                <td>
+                    <input type="text" placeholder="city">
+                    <input type="text" placeholder="state">
+                </td>
+            </tr>
+            <tr>
+                <td></td>
+                <td>
+                    <input type="text" name="codigoPostal" placeholder="Postal / Zip Code">
+                    <select name="country">
+                        <option value="">Country</option>
+                    </select>
+
+
+                </td>
+            <tr>
+                <td><label for="adesao">Plano de adesao</label></td>
+                <td>
+                    <input type="radio" name="plano" id="padrao">Padrao (200$/ano)
+                    <input type="radio" name="plano" id="prata">Prata (450$/ano)
+                    <input type="radio" name="plano" id="ouro">Ouro (600$/ano)
+
+                </td>
+            </tr>
+
+
+
+        </table>
+
+    </form>
+
+</body>
+
+</html>
