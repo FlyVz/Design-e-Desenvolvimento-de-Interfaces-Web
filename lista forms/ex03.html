@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <title>revisar pedidos</title>
+</head>
+
+<body>
+
+    <form action="pedidos">
+
+        <table border="0">
+            <tr>
+                <td>
+                    <select name="registro">
+                        <option>registro</option>
+                    </select>
+                </td>
+                <td>
+                    exibir: 
+                    <select name="exibir">
+                        <option>revisar pedidos</option>
+                    </select>
+                </td>
+            </tr>
+        </table>
+
+        <br>
+
+        <table border="0">
+            <tr>
+                <td>* - indica um campo obrigatorio</td>
+                <td>
+                    <input type="button" value="ok">
+                    <input type="button" value="deletar">
+                    <input type="button" value="cancelar">
+                </td>
+            </tr>
+        </table>
+
+        <br>
+
+        <table border="0">
+            <tr>
+                <td>cliente:</td>
+                <td>
+                    <input type="text" name="cliente" value="bon app'">
+                </td>
+                <td>endereco:</td>
+                <td>
+                    <input type="text" name="endereco" value="12, rue des bouchers">
+                </td>
+            </tr>
+            <tr>
+                <td>funcionario:</td>
+                <td>
+                    <input type="text" name="funcionario" value="peacock">
+                </td>
+                <td>cidade:</td>
+                <td>
+                    <input type="text" name="cidade" value="marselha">
+                </td>
+            </tr>
+            <tr>
+                <td>data do pedido:</td>
+                <td>
+                    <input type="text" name="datapedido" value="5/6/1998">
+                </td>
+                <td>regiao:</td>
+                <td>
+                    <input type="text" name="regiao" value="">
+                </td>
+            </tr>
+            <tr>
+                <td>data requerida:</td>
+                <td>
+                    <input type="text" name="dataRequerida" value="6/3/1998">
+                </td>
+                <td>codigo postal:</td>
+                <td>
+                    <input type="text" name="codigoPostal" value="13008">
+                </td>
+            </tr>
+            <tr>
+                <td>data de envio:</td>
+                <td>
+                    <input type="text" name="dataEnvio" value="">
+                </td>
+                <td>pais de envio:</td>
+                <td>
+                    <input type="text" name="paisEnvio" value="franca">
+                </td>
+            </tr>
+        </table>
+
+        <br>
+
+        <fieldset>
+            <table border="0">
+                <tr>
+                    <td>
+                        <select name="busca">
+                            <option>cha</option>
+                        </select>
+                        <input type="button" value="buscar">
+                        <a href="#">novos detalhes do pedido</a>
+                        <select name="acoes">
+                            <option>acoes</option>
+                        </select>
+                    </td>
+                </tr>
+            </table>
+
+            <table border="1">
+                <tr>
+                    <th>nome do produto</th>
+                    <th>preco unitario</th>
+                    <th>quantidade</th>
+                    <th>desconto</th>
+                    <th>nome da categoria do produto</th>
+                    <th>nome da empresa fornecedora</th>
+                    <th>preco estendido</th>
+                </tr>
+                <tr>
+                    <td>geleia de amora da vovo</td>
+                    <td>$25.00</td>
+                    <td>20</td>
+                    <td>25.00 %</td>
+                    <td>condimentos</td>
+                    <td>fazenda da vovo kelly</td>
+                    <td>$375.00</td>
+                </tr>
+                <tr>
+                    <td>tofu</td>
+                    <td>$23.25</td>
+                    <td>20</td>
+                    <td>25.00 %</td>
+                    <td>produtos agricolas</td>
+                    <td>mayumi's</td>
+                    <td>$348.75</td>
+                </tr>
+                <tr>
+                    <td>biscoitos de chocolate para o cha</td>
+                    <td>$9.20</td>
+                    <td>10</td>
+                    <td>25.00 %</td>
+                    <td>confeccoes</td>
+                    <td>biscoitos especiais, ltda.</td>
+                    <td>$69.00</td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td>med: $19.15</td>
+                    <td>soma: 50</td>
+                    <td>med: 25.00 %</td>
+                    <td></td>
+                    <td></td>
+                    <td>soma: $792.75</td>
+                </tr>
+            </table>
+        </fieldset>
+
+        <br>
+
+        <table border="0">
+            <tr>
+                <td>nome de envio:</td>
+                <td>
+                    <input type="text" name="nomeEnvio" value="bon app'">
+                </td>
+                <td>subtotal:</td>
+                <td>$792.75</td>
+            </tr>
+            <tr>
+                <td>enviar via:</td>
+                <td>
+                    <select name="viaEnvio">
+                        <option>pacote unido</option>
+                    </select>
+                </td>
+                <td>frete:</td>
+                <td>
+                    <input type="text" name="frete" value="$38.28" size="8">
+                </td>
+            </tr>
+            <tr>
+                <td></td>
+                <td></td>
+                <td>total:</td>
+                <td>$831.03</td>
+            </tr>
+        </table>
+
+        <br>
+
+        <table border="0">
+            <tr>
+                <td>* - indica um campo obrigatorio</td>
+                <td>
+                    <input type="button" value="ok">
+                    <input type="button" value="deletar">
+                    <input type="button" value="cancelar">
+                </td>
+            </tr>
+        </table>
+
+    </form>
+
+</body>
+
+</html>
