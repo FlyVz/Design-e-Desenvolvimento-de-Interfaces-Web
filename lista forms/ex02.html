@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <title>formulario elaborado</title>
+</head>
+
+<body>
+
+    <form action="cadastro">
+
+        <fieldset>
+            <table heidth="200px" height="200px">
+                <tr>
+                    <td>
+                        <label for="nome">nome*</label>
+                    </td>
+                    <td>
+                        <input type="primeironome" name="nome" placeholder="nome completo">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="endereco">endereco*</label>
+                    </td>
+                    <td>
+                        <input type="text" name="endereco" size="46">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="cidade">cidade*</label>
+                    </td>
+                    <td>
+                        <input type="text" name="cidade" size="46">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="estado">estado*</label>
+                    </td>
+                    <td>
+                        <select name="estado">
+                            <option value="sp">sao paulo</option>
+
+                        </select>
+                    </td>
+                </tr>
+            </table>
+        </fieldset>
+
+        <br>
+
+        <fieldset>
+
+            <table heidth="200px" height="200px">
+                <tr>
+                    <td>natureza do cargo</td>
+                </tr>
+                
+                <tr>
+                    <td>
+                        <input type="radio" name="gerencia">gerencia
+                        <input type="radio" name="financeiro">financeiro
+                        <input type="radio" name="recepcao">recepcao
+                        <input type="radio" name="administrativo">administrativo
+                        <input type="radio" name="juridico">juridico
+                    </td>
+                </tr>
+                <tr>
+                    <td>area de interesse</td>
+                    <br>
+                </tr>
+                <tr>
+                    <td>
+                        <input type="checkbox" name="interesse">computacao
+                        <input type="checkbox" name="interesse">biologia
+                        <input type="checkbox" name="interesse">meio ambiente
+                        <input type="checkbox" name="interesse">engenharia
+                        <input type="checkbox" name="interesse">historia
+                    </td>
+                </tr>
+                <tr>
+                    <td><br>mini-curriculo:</td>
+                </tr>
+                <tr>
+                    <td>
+                        <textarea name="curriculo" cols="60" rows="10"></textarea
+                    </td>
+                </tr>
+            </table>
+        </fieldset>
+
+        <br>
+
+        <input type="submit" value="enviar">
+        <input type="reset" value="limpar">
+
+    </form>
+
+</body>
+
+</html>
