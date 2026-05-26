@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dashboard Estudante V2</title>
+    <link rel="stylesheet" href="style.css" />
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
+  </head>
+
+  <body>
+    <div class="dashboard-container">
+      
+      <aside class="sidebar">
+        <div class="logo">
+          <span class="material-icons">bubble_chart</span>
+          <h2>Fly's company</h2>
+        </div>
+        <ul class="nav-menu">
+          <li><span class="material-icons">dashboard</span> Dashboard</li>
+          <li><span class="material-icons">edit_document</span> Formulário</li>
+          <li><span class="material-icons">list_alt</span> Lista</li>
+          <li><span class="material-icons">person</span> Perfil</li>
+          <li class="active-menu"><span class="material-icons">check_circle</span> Resultado</li>
+          <li><span class="material-icons">warning</span> Exceção</li>
+          <li><span class="material-icons">account_circle</span> Conta</li>
+        </ul>
+      </aside>
+
+      <div class="main-content">
+        
+        <header class="top-header">
+          <span class="material-icons menu-icon">menu</span>
+          <div class="header-right">
+            <span class="material-icons">search</span>
+            <span class="material-icons">help_outline</span>
+            <span class="material-icons notification">notifications</span>
+            
+            <div class="user-profile">
+              <span>fly</span>
+            </div>
+            
+          </div>
+        </header>
+
+        <div class="cards-wrapper">
+          
+          <div class="card card-sales">
+            <div class="card-title">Vendas Totais <span class="material-icons info-icon">info</span></div>
+            <h3>$ 154,430</h3>
+            <br>
+            <div class="divider"></div>
+            <p>Vendas do Dia: $15,443</p>
+          </div>
+
+          <div class="card card-visits">
+            <div class="card-title">Visitas <span class="material-icons info-icon">info</span></div>
+            <h3>6,480</h3>
+            <div class="horizontal-chart">
+              <div class="bar bar-blue" style="width: 85%;"></div>
+              <div class="bar bar-cyan" style="width: 60%;"></div>
+              <div class="bar bar-orange" style="width: 40%;"></div>
+            </div>
+            <div class="divider"></div>
+            <p>Visitas do Dia: 4,280</p>
+          </div>
+
+          <div class="card card-payments">
+            <div class="card-title">Pagamentos <span class="material-icons info-icon">info</span></div>
+            <h3>5,320</h3>
+            <div class="mini-bar-chart">
+              <div class="v-bar" style="height: 40px"></div>
+              <div class="v-bar" style="height: 60px"></div>
+              <div class="v-bar" style="height: 30px"></div>
+              <div class="v-bar" style="height: 50px"></div>
+              <div class="v-bar" style="height: 40px"></div>
+            </div>
+            <div class="divider"></div>
+            <p>Taxa de Conversão: 50%</p>
+          </div>
+
+          <div class="card card-operation">
+            <p class="op-title">Eficiência da <br> Operação</p>
+            <h2>88%</h2>
+          </div>
+        </div>
+
+        <div class="bottom-wrapper">
+          
+          <div class="chart-area">
+            <div class="chart-header">
+              <div class="tabs">
+                <span class="active-tab">Vendas</span>
+                <span>Visitas</span>
+              </div>
+              <div class="filters">
+                <span>Diário</span>
+                <span>Semanal</span>
+                <span>Mensal</span>
+                <span class="active-filter">Anual</span>
+                <span class="date-picker">2020-01-01 ~ 2020-12-31</span>
+              </div>
+            </div>
+            
+            <h4>Tendência de Vendas da Loja</h4>
+            <div class="main-bar-chart">
+               <div class="col-chart"><div class="bar-b" style="height: 50%"></div><div class="bar-c" style="height: 35%"></div></div>
+               <div class="col-chart"><div class="bar-b" style="height: 15%"></div><div class="bar-c" style="height: 25%"></div></div>
+               <div class="col-chart"><div class="bar-b" style="height: 90%"></div><div class="bar-c" style="height: 40%"></div></div>
+               <div class="col-chart"><div class="bar-b" style="height: 30%"></div><div class="bar-c" style="height: 50%"></div></div>
+            </div>
+          </div>
+
+          <div class="ranking-area">
+            <h4>Ranking de Vendas</h4>
+            <ul class="ranking-list">
+              <li><span class="rank-circle top-rank">1</span> Loja Nº 0 <span class="rank-num">432,641</span></li>
+              <li><span class="rank-circle top-rank">2</span> Loja Nº 1 <span class="rank-num">432,641</span></li>
+              <li><span class="rank-circle top-rank">3</span> Loja Nº 2 <span class="rank-num">432,641</span></li>
+              <li><span class="rank-circle">4</span> Loja Nº 3 <span class="rank-num">432,641</span></li>
+              <li><span class="rank-circle">5</span> Loja Nº 4 <span class="rank-num">432,641</span></li>
+              <li><span class="rank-circle">6</span> Loja Nº 5 <span class="rank-num">432,641</span></li>
+              <li><span class="rank-circle">7</span> Loja Nº 6 <span class="rank-num">432,641</span></li>
+            </ul>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
